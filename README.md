@@ -3,7 +3,7 @@
 GitHuber
 </h1>
 
-<p align="center">A little React Native app to search devs and his starred repos.</p>
+<p align="center">A little React Native app to search devs and his starred repos :octocat:</p>
 
 [//]: # "Add your gifs/images here:"
 
@@ -23,7 +23,6 @@ This app features was developed with some of latest tools and practices in mobil
 - :nail_care: **StyledComponents** — One of the new ways to use CSS in modern JavaScript.
 - :truck: **API Integration** — Axios, a JS lib, used to handle HTTP requests/responses.
 
-:octocat:
 
 ## Getting started
 
