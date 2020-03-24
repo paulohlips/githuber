@@ -1,14 +1,11 @@
-import Reactotron from 'reactotron-react-js';
-//import { reactotronRedux } from 'reactotron-redux';
-//import reactotronSaga from 'reactotron-redux-saga';
+import Reactotron from 'reactotron-react-native';
 
-if (process.env.NODE_ENV === 'development') {
-    const tron = Reactotron.configure()
-        //.use(reactotronRedux())
-        //.use(reactotronSaga())
-        .connect();
+if (__DEV__) {
+  const tron = Reactotron.configure()
+    .useReactNative()
+    .connect();
 
-    tron.clear();
+  tron.clear();
 
-    console.tron = tron;
+  console.tron = tron;
 }
